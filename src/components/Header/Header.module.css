@@ -1,0 +1,35 @@
+.Header {
+    @apply w-screen mx-auto;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.Container {
+     @apply mx-auto h-16;
+
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #ecf2f4;
+}
+
+.Image-logo {
+    width: 100px;
+}
+

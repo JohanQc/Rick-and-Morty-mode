@@ -1,0 +1,30 @@
+.Banner {
+    height: 94vh;
+    background: linear-gradient(180deg, #17502A 0.98%, rgba(4, 117, 43, 0.499357) 7.05%, rgba(13, 48, 25, 0) 100%), #010E11;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Image-Banner {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 920px;
+    object-fit: contain;
+    transition: 0.5s;
+    transform: scale(0.8);
+    margin-bottom: 100px;
+}
+
+:hover.Image-Banner {
+    transform: scale(1);
+}
+
+.Image-Title {
+    width: 30%;
+    display: flex;
+    align-self: center;
+    position: absolute;
+    bottom: 60px;
+}
