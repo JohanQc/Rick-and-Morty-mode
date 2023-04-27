@@ -17,7 +17,10 @@
 }
 
 body {
-  min-height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(180deg, #17502A 0.98%, rgba(4, 117, 43, 0.499357) 7.05%, rgba(13, 48, 25, 0) 100%), #010E11;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Amatic SC', cursive;
 }
