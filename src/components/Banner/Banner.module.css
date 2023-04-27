@@ -1,30 +1,42 @@
 .Banner {
-    height: 94vh;
-    background: linear-gradient(180deg, #17502A 0.98%, rgba(4, 117, 43, 0.499357) 7.05%, rgba(13, 48, 25, 0) 100%), #010E11;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    position: relative;
 }
+
+.Wrapper-imgs {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    animation: WrapperAnimation 2s linear 1s infinite alternate forwards;
+}
+
+@keyframes WrapperAnimation {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+/* .Wrapper-imgs:hover {
+    transform: scale(1.1);
+    transition: .5s;
+} */
 
 .Image-Banner {
-    display: flex;
-    align-self: center;
-    height: 100%;
-    width: 920px;
-    object-fit: contain;
-    transition: 0.5s;
-    transform: scale(0.8);
-    margin-bottom: 100px;
+    width: 100%;
+    max-width: 500px;
 }
 
-:hover.Image-Banner {
-    transform: scale(1);
-}
 
 .Image-Title {
-    width: 30%;
-    display: flex;
-    align-self: center;
-    position: absolute;
-    bottom: 60px;
+    width: 100%;
+    max-width: 350px;
 }

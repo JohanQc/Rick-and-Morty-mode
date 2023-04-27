@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className={styles.Header}>
       <div className={styles.Container}>
-        <img className={styles["Image-logo"]} src="https://www.freepnglogos.com/uploads/rick-and-morty-png/rick-and-morty-monsters-transparent-png-stickpng-2.png" alt="" />
+        <img className={styles["Image-logo"]} src="/images/logo.svg" alt="" />
         <nav className={styles.Nav}>
           <ul className={styles["Nav-list"]}>
             <li>

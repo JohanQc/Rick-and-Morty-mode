@@ -1,4 +1,5 @@
 .Footer {
-    height: 6vh;
-    background-color: #27214f;
+  @apply w-full py-1 flex justify-center items-center;
+  background-color: #27214f;
+  font-family: "Amatic SC", cursive;
 }

@@ -1,0 +1,4 @@
+.Layout {
+  @apply h-full flex justify-between flex-col;
+  min-height: 100vh;
+}
