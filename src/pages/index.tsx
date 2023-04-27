@@ -1,14 +1,13 @@
 import Banner from '@/components/Banner'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Layout from '@/components/Layout'
 
 
 export default function Home() {
   return (
-    <main className='' >
-      <Header/>
+    <>
+      <Layout>
       <Banner/>
-      <Footer/>
-    </main>
+      </Layout>
+    </>
   )
 }
