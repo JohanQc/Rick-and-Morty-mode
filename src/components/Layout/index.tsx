@@ -1,5 +1,5 @@
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from "../MainPage/Footer";
+import Header from "../MainPage/Header";
 import styles from "./styles.module.css";
 
 interface LayoutProps {

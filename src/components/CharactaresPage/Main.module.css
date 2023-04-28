@@ -1,0 +1,7 @@
+.Container {
+    @apply flex justify-center items-center;
+}
+
+.img-title {
+    width: 100%;
+}
